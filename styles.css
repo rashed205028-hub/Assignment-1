@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
+
+/* main style */
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+    
+}
+
+nav{
+    width: 1600px;
+    border: 1px solid red; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+} 
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 32px;
+    text-decoration: none;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+
+.logo{
+    margin-left: 18.3px;
+    align-items: center;
+}
+
+
+  nav .btn{
+    background-color: #30B868;
+    font-size: 16px;
+    padding: 12.5px 16px;
+    text-align: center;
+   
+   
+}  
+
+#hero {
+    padding: 115.5px 120px 179.5px 0px;
+}
+  
+#hero .hero-content{
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 115.5px 120px 179.5px 0px;
+    max-width: 1360px;
+   background-image: url(./assets/hero-bg.png);
+}
+
+#hero .hero-content h5{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    
+    
+
+   
+}
+
+.hero-content .color{
+    color: #30B868;
+}
+
+.hero-content .btn-color{
+   background-color:  #30B868;
+
+
+}
+
+.hero-content p{
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    
+}
+
+.skill-card{
+    width: 1000px;
+    height: auto;
+    /* background-color: #F95555; */
+    /* border-radius: 50%; */
+    /* border: 6px; */
+
+}
+
+/* .skill-card{
+    border-radius: 20%;
+    padding: 2px;
+    background-color: black;
+} */
+
